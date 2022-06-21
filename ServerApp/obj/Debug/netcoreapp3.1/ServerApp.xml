@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ServerApp</name>
+    </assembly>
+    <members>
+        <member name="M:ServerApp.Controllers.AuthController.CreateUser(ServerApp.DTO.UserDto)">
+            <summary>
+            
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ServerApp.Controllers.ProductsController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ServerApp.Controllers.ProductsController.#ctor(ServerApp.Data.SocialContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+        </member>
+        <member name="M:ServerApp.Controllers.ProductsController.GetProducts">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ServerApp.Controllers.ProductsController.GetProduct(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ServerApp.Controllers.ProductsController.AddProduct(ServerApp.Models.Product)">
+            <summary>
+            
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ServerApp.Controllers.ProductsController.UpdateProduct(ServerApp.Models.Product)">
+            <summary>
+            
+            </summary>
+            <param name="product"></param>
+            <returns></returns>
+        </member>
+        <member name="M:ServerApp.Controllers.ProductsController.DeleteProduct(System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="productId"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ServerApp.Data.SocialContext">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:ServerApp.Data.SocialContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{ServerApp.Data.SocialContext})">
+            <summary>
+            
+            </summary>
+            <param name="options"></param>
+        </member>
+        <member name="T:ServerApp.Models.Role">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:ServerApp.Models.User">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>
